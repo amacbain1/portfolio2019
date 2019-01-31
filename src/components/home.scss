@@ -1,0 +1,43 @@
+@import '../App.scss';
+
+#home{
+
+  .card-name {
+    min-width: 16rem;
+    height: 18rem;
+    border: solid 6px #49494b;
+
+    .name {
+      margin-top: 1.5rem;
+      color: #bd8c7d;
+
+      .first{
+        font-size: 2.0rem;
+        font-style: italic;
+        font-weight: normal;
+        text-align: center;
+      }
+      .middle {
+        text-align: right;
+      }
+      .last {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: lighter;
+      }
+    }
+
+  }
+
+  .card-img {
+    min-width: 18rem;
+    height: 18rem;
+    background-color: #49494b;
+  }
+
+  .card-skills {
+    min-width: 18rem;
+    height: 18rem;
+    border: solid 6px #49494b;
+  }
+}

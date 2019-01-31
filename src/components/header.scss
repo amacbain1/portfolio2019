@@ -1,0 +1,37 @@
+@import '../App.scss';
+
+#header{
+
+  .top-stripe {
+    height: 1.5rem;
+    background-color: $onyx;
+    text-align: right;
+
+    .span {
+      font-size: .8rem;
+      margin-right: 1.5rem;
+      color: $softgold;
+    }
+  }
+
+
+
+  .nav-bg {
+    background-color: white;
+
+    .logo {
+      color:$rosegold;
+      font-size: 2rem;
+    }
+
+    .nav-color {
+      color:  $onyx;
+    }
+
+    .btn-nav {
+      background-color: $rosegold;
+    }
+  }
+
+
+}
