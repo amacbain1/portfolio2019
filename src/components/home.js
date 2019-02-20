@@ -1,33 +1,40 @@
 import React, { Component } from 'react';
 import './home.scss';
+import profile_pic from './../../src/images/Profile-pic-B_W.JPG'
 
 class Home extends Component {
 
   render(){
 
     return (
-      <div id='home' className='container'>
+      <section id='home'>
+      <div className='container'>
+        <div className='card-columns mx-auto'>
 
-        <div className='row'>
 
-          <div className='col-4 card mx-2 my-5 card-name'>
-            <h1 className='px-1 py-3 name'>
-              <span className='first'>Amber</span><br />
-              <span className='middle'>Macbain</span><br />
-              <span className='last'>Stumpf</span>
-            </h1>
+          <div className='card mx-2 card-img card-main'>
+            <figure>
+              <img src={ profile_pic } alt='Profile image'/>
+            </figure>
           </div>
 
-          <div className='col-4 card mx-2 my-5 card-img'>
-            <img />
+          <div className='card mx-2 card-skills'>
           </div>
 
-          <div className='col-4 card mx-2 my-5 card-skills'>
+          <div className='card mx-2 card-name'>
+            <div className='card-body px-3 py-1'>
+              <h1 className='name'>
+                <p className='first'>Amber</p><br />
+                <p className='middle'>Macbain</p><br />
+                <p className='last'>Stumpf</p>
+              </h1>
+            </div>
+
           </div>
 
         </div>
-
-      </div>
+        </div>
+      </section>
 
 
     )

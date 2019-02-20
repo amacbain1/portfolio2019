@@ -15,6 +15,7 @@ class App extends Component {
       <div className="App app-bg">
         < Header />
         < Home />
+        < Projects />
       </div>
     );
   }

@@ -1,0 +1,41 @@
+@import '../App.scss';
+
+#projects{
+  min-height: 676px;
+  background-color: $onyx;
+  display: block;
+
+  img{
+    width: 16rem;
+  }
+
+  .projects-title{
+    background-color: $onyx;
+    border: solid 4px $softgold;
+    h3{
+      font-family: $cinzel;
+      color: $softgold;
+    }
+  }
+
+  .project-1 {
+    min-width: 16rem;
+    height: 18rem;
+    margin-top: 6.5rem;
+
+  }
+
+  .project-2 {
+    min-width: 16rem;
+    height: 18rem;
+    margin-top: 11.5rem;
+    border: solid 6px $rosegold;
+  }
+
+  .project-3 {
+    min-width: 16rem;
+    height: 18rem;
+    margin-top: 11.5rem;
+  }
+
+}

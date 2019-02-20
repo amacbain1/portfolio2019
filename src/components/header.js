@@ -7,16 +7,26 @@ class Header extends Component {
   render(){
 
     return (
-      <div id='header'>
+      <div id='header' className='sticky-top'>
+
         <div className='top-stripe'>
           <span className='span'>aiyemacbain@gmail.com | exploresocalifornia.com</span>
         </div>
         <nav className='navbar navbar-expand-sm nav-bg'>
-
+        {/*Container should be above this div*/}
           <div className='container'>
             <a href='/' className='logo'>Portfolio</a>
           </div>
-          <div className=''>
+
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target=".navbarCollapse">
+
+            <span class="navbar-toggle-icon"></span>
+          </button>
+
+          <div className='collapse navbar-collapse'>
             <ul className='navbar-nav mr-auto'>
               <li className='nav-item '>
                 <a href='/' className='nav-link nav-color'>Home</a>
@@ -33,6 +43,7 @@ class Header extends Component {
           </div>
 
         </nav>
+
       </div>
     )
   }
