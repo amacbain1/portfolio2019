@@ -43,11 +43,14 @@
   }
 
   .card-img {
+    background-image: url(./../../src/images/Profile-pic-B_W.JPG);
     border: solid 6px $onyx;
+    background-size: cover;
     margin-top: 5rem;
 
+
     img {
-      width: 16rem;
+      width: 100%;
     }
   }
 

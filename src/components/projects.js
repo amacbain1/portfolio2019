@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './projects.scss';
-import ladybug from './../../src/images/ladybug_game.png';
-import neighborhood_map from './../../src/images/neighborhood_map.png';
-import team_page from './../../src/images/team_screenshot.png';
+
+
 
 
 
@@ -14,34 +13,32 @@ class Projects extends Component {
 
 
         <div className='container'>
-            <div className='card-columns'>
-              <div className='card projects-title mt-4'>
+
+            <div className='card col-lg-6 project'>
+              <div className='projects-title justify-content'>
                 <h3 className='mb-0 text-center align-bottom'>Projects</h3>
               </div>
+            </div>
 
-              <div className='card project-1'>
-                <figure className='card-img'>
-                  <img src={ ladybug } alt='Ladybug game image'/>
-                </figure>
+            <div className='card-columns'>
+              <div className='card card-main project-1'>
+
               </div>
 
-              <div className='card project-2'>
-                <figure className='card-img'>
-                  <img src={ team_page } alt='Ledkyb team image'/>
-                </figure>
+              <div className='card card-main project-2'>
+
               </div>
 
-              <div className='card project-3'>
-                <figure className='card-img'>
-                  <img src={ neighborhood_map } alt='Neighborhood map project image'/>
-                </figure>
+              <div className='card card-main project-3'>
+
               </div>
+            </div>
+
+
           </div>
 
         </div>
 
-
-      </div>
     )
 
 

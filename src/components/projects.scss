@@ -5,37 +5,43 @@
   background-color: $onyx;
   display: block;
 
-  img{
-    width: 16rem;
-  }
 
-  .projects-title{
+  .project {
     background-color: $onyx;
-    border: solid 4px $softgold;
-    h3{
-      font-family: $cinzel;
-      color: $softgold;
+
+    .projects-title{
+        margin-top: 2rem;
+      border: solid 4px $softgold;
+      h3{
+        font-family: $cinzel;
+        color: $softgold;
+      }
     }
-  }
-
-  .project-1 {
-    min-width: 16rem;
-    height: 18rem;
-    margin-top: 6.5rem;
 
   }
 
-  .project-2 {
-    min-width: 16rem;
-    height: 18rem;
-    margin-top: 11.5rem;
-    border: solid 6px $rosegold;
-  }
 
-  .project-3 {
-    min-width: 16rem;
-    height: 18rem;
-    margin-top: 11.5rem;
+  .card-columns{
+    margin-top: 8rem;
+
+    .project-1 {
+      background-image: url(./../../src/images/ladybug_game.png);
+      border: solid 6px $rosegold;
+      background-size: cover;
+
+    }
+
+    .project-2 {
+      background-image: url(./../../src/images/team_screenshot.png);
+      border: solid 6px $silver;
+      background-size: cover;
+    }
+
+    .project-3 {
+      background-image: url(./../../src/images/neighborhood_map.png);
+      border: solid 6px $rosegold;
+      background-size: cover;
+      }
   }
 
 }

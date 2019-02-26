@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './home.scss';
-import profile_pic from './../../src/images/Profile-pic-B_W.JPG'
+
 
 class Home extends Component {
 
@@ -13,15 +13,13 @@ class Home extends Component {
 
 
           <div className='card mx-2 card-img card-main'>
-            <figure>
-              <img src={ profile_pic } alt='Profile image'/>
-            </figure>
+
           </div>
 
-          <div className='card mx-2 card-skills'>
+          <div className='card mx-2 card-skills card-main'>
           </div>
 
-          <div className='card mx-2 card-name'>
+          <div className='card mx-2 card-name card-main'>
             <div className='card-body px-3 py-1'>
               <h1 className='name'>
                 <p className='first'>Amber</p><br />
