@@ -10,8 +10,9 @@
   .card-name {
     min-width: 16rem;
     min-height: 18rem;
-    border: solid 6px;
+    border: solid 6px $onyx;
     margin-top: 10rem;
+    
 
     .name {
       margin-top: 1.5rem;
@@ -59,5 +60,6 @@
     min-height: 18rem;
     background-color: $onyx;
     margin-top: 17rem;
+    border: solid 6px lightgray;
   }
 }

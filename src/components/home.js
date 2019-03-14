@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './home.scss';
+import './Home.scss';
 
 
 class Home extends Component {
 
   render() {
+    const name = 'Amber'
 
     return (
       <section id='home'>
@@ -16,9 +17,9 @@ class Home extends Component {
 
             </div>
 
-            <div className='card mx-2 card-skills card-main'>
-              <h2 className='card-title'>Lorem ipsum dolor sit amet.</h2>
-              <p className='card-body'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium necessitatibus minus animi unde possimus ullam similique commodi modi rerum temporibus!</p>
+            <div className='card mx-2 card-skills card-main text-center'>
+              <h2 className='card-title text-white-50 m-3'>{name} lorem ipsum dolor sit amet.</h2>
+              <p className='card-body text-white-50'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium necessitatibus minus animi unde possimus ullam similique commodi modi rerum temporibus!</p>
             </div>
 
             <div className='card mx-2 card-name card-main'>

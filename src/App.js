@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import Header from './components/header.js';
-import Home from './components/home.js';
-import Projects from './components/projects.js';
-import Contact from './components/contact.js';
+import Header from './components/Header.js';
+import Home from './components/Home.js';
+import Projects from './components/Projects.js';
+import Contact from './components/Contact.js';
 
 
 
@@ -16,6 +16,7 @@ class App extends Component {
         < Header />
         < Home />
         < Projects />
+        < Contact />
       </div>
     );
   }
