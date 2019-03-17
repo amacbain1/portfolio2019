@@ -24,7 +24,7 @@ class Projects extends Component {
 
             <div className='card card-main project-1 text-center col-md-4'>
               <div className='overlay'>
-                <p className="text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae delectus tempore tenetur, sit fugiat animi.</p>
+                <p className="text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae delectus tempore</p>
               </div>
             </div>
 

@@ -8,6 +8,7 @@
 
   .project {
     background-color: $onyx;
+    border: none;
 
     .projects-title{
       margin-top: 2rem;
@@ -50,7 +51,7 @@
     margin-top: 8rem;
 
     .project-1 {
-      background-image: url(./../../src/images/ladybug_game.png);
+      background-image: url(./../../src/images/bw_ladybug_game.jpg);
       border: solid 6px $rosegold;
       background-size: cover;
 
@@ -65,9 +66,12 @@
         
 
     }
-    .project-1:hover .overlay {
-      width: 100%;
-      cursor: pointer;
+    .project-1:hover { 
+      background-image: url(./../../src/images/ladybug_game.png);
+      .overlay {
+        width: 100%;
+        cursor: pointer;
+      }
     }
 
     .project-2 {
@@ -91,7 +95,7 @@
     }
 
     .project-3 {
-      background-image: url(./../../src/images/neighborhood_map.png);
+      background-image: url(./../../src/images/bw_neighborhood_map.jpg);
       border: solid 6px $silver;
       background-size: cover;
 
@@ -105,14 +109,17 @@
         }
       }
     }
-    .project-3:hover .overlay {
-      bottom: 0;
-      height: 100%;
-      cursor: pointer;
+    .project-3:hover {
+      background-image: url(./../../src/images/neighborhood_map.png);
+      .overlay {
+        bottom: 0;
+        height: 100%;
+        cursor: pointer;
+      }
     }
 
     .project-4 {
-      background-image: url(./../../src/images/exploresocal.png);
+      background-image: url(./../../src/images/bw_exploresocal.png);
       border: solid 6px $rosegold;
       background-size: cover;
 
@@ -126,10 +133,13 @@
         }
       }
     }
-    .project-4:hover .overlay {
-      width: 100%;
-      left: 0;
-      cursor: pointer;
+    .project-4:hover {
+      background-image: url(./../../src/images/exploresocal.png);
+      .overlay {
+        width: 100%;
+        left: 0;
+        cursor: pointer;
+      }
     }
   }
 
