@@ -1,0 +1,15 @@
+@import '../App.scss';
+
+#Tabbar {
+    max-height: 40px;
+
+    .top-stripe {
+        height: 3px;
+        background-color: $rosegold;
+    }
+
+    .nav-color {
+        color: $softgold;
+
+    }
+}

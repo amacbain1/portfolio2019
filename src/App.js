@@ -5,7 +5,7 @@ import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
-
+import Tabbar from './components/Tabbar.js'
 
 
 
@@ -17,6 +17,7 @@ class App extends Component {
         < Home />
         < Projects />
         < Contact />
+        < Tabbar />
       </div>
     );
   }
