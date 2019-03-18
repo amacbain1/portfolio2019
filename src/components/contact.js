@@ -5,7 +5,7 @@ class Contact extends Component {
 
 
         return (
-            <section>
+            <section id='contact' className='container mb-5'>
                 <h4>Name</h4>
                 <p>Email</p>
                 <p>website address</p>
