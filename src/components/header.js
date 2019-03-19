@@ -7,41 +7,39 @@ const Header = () => {
   return (
     <section id='header' className='sticky-top'>
       <div className='nav-bg'>
+
         <div className='top-stripe'>
           <span className='span'>aiyemacbain@gmail.com | exploresocalifornia.com</span>
         </div>
+
         <div className='container'>
-          <nav className='navbar navbar-expand-sm nav-bg navbar-inverse'>
-            <div className=''>
-              <a href='/' className='logo ml-auto'>Portfolio</a>
-            </div>
-            <div className='mr-auto'>
-              <button
-                className="navbar-toggler"
-                data-toggle="collapse"
-                data-target=".navbar-collapse">
+          <div className='row'>
+            <nav className='navbar navbar-expand-sm nav-bg'>
 
-                <span className="navbar-toggler-icon"></span>
-              </button>
+              <div className=''>
+                <a href='/' className='logo'>Portfolio</a>
+              </div>
 
-              <div className='collapse navbar-collapse text-right'>
-                <ul className='navbar-nav '>
-                  <li className='nav-item '>
-                    <a href='/' className='nav-link nav-color'>Home</a>
+              <div className='collapse navbar-collapse '>
+                <ul className='navbar-nav'>
+                  <li className='nav-item color-change'>
+                    <a href='#home' className='nav-link nav-color'>Home</a>
                   </li>
-                  <li className='nav-item'>
-                    <a href='/' className='nav-link nav-color'>Projects</a>
+                  <li className='nav-item color-change'>
+                    <a href='#projects' className='nav-link nav-color'>Projects</a>
                   </li>
                   <li className='nav-item'>
                     <button className='btn-nav'>
-                      <a href='/' className='nav-link nav-color'>Contact</a>
+                      <a href='#contact' className='nav-link nav-color'>Contact</a>
                     </button>
                   </li>
                 </ul>
               </div>
-            </div>
-          </nav>
+
+            </nav>
+          </div>
         </div>
+
       </div>
     </section>
   )

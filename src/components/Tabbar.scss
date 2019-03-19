@@ -2,7 +2,8 @@
 
 #Tabbar {
     max-height: 40px;
-
+    font-size: .9rem;
+    
     .top-stripe {
         height: 3px;
         background-color: $rosegold;
@@ -11,5 +12,10 @@
     .nav-color {
         color: $softgold;
 
+    }
+
+    ul a:active,
+    ul a:hover {   
+        font-size: 1.2rem;
     }
 }

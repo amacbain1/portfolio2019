@@ -57,5 +57,18 @@
     background-color: $onyx;
     margin-top: 17rem;
     border: solid 6px lightgray;
+
+    h2 {
+      font-size: 1.5rem;
+      font-family: $cinzel;
+    }
+
+    p{
+      font-size: 1rem;
+
+      hr {
+        border-color: $rosegold;
+      }
+    }
   }
 }

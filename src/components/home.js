@@ -5,7 +5,6 @@ import './Home.scss';
 class Home extends Component {
 
   render() {
-    const name = 'Amber'
 
     return (
       <section id='home'>
@@ -18,8 +17,9 @@ class Home extends Component {
             </div>
 
             <div className='card mx-2 card-skills card-main text-center'>
-              <h2 className='card-title text-white-50 m-3'>{name} lorem ipsum dolor sit amet.</h2>
-              <p className='card-body text-white-50'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium necessitatibus minus animi unde possimus ullam similique commodi modi rerum temporibus!</p>
+              <h2 className='card-title text-white-50 m-3'>Front End Web Development</h2>
+              <p className='card-body text-white-50'>HTML, CSS, Bootstrap, JavaScript, React, Git<br /><hr /><em style={{ fontFamily: 'Cinzel Decorative' }}>Amber</em> loves to collaborate and wishes she could install Git in her daily life.</p>
+
             </div>
 
             <div className='card mx-2 card-name card-main'>
