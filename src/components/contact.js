@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './Contact.scss'
+
+
 class Contact extends Component {
     render() {
 
@@ -11,7 +13,7 @@ class Contact extends Component {
                         <div className='card contact-card m-5 p-2'>
                             <h4 className='name'>Amber Macbain Stumpf</h4>
                             <hr className='dark' />
-                            <p>Reach out to me <br />aiyemacbain@gmail.com</p>
+                            <p>Reach out to me at<br />aiyemacbain@gmail.com</p>
                         </div>
                         <div className='card contact-card m-5 p-3'>
                             <hr />

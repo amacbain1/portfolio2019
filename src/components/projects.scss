@@ -46,6 +46,7 @@
     
     .text {
       color: white;
+      font-weight: lighter;
       font-size: 1em;
       position: absolute;
       top: 50%;
@@ -54,6 +55,15 @@
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
+
+    h6 {
+      font-family: $cinzel;
+    }
+
+    hr {
+      border-color: $rosegold;
+    }
+
   }
 
   
@@ -61,15 +71,7 @@
 
   .card-columns{
     margin-top: 4rem;
-
-    hr {
-      border-color: $rosegold;
-    }
-
-    h6 {
-      font-family: $cinzel;
-    }
-
+    
     .project-1 {
       background-image: url(./../../src/images/bw_ladybug_game.jpg);
       border: solid 6px $rosegold;

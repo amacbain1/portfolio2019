@@ -9,35 +9,35 @@ const Header = () => {
       <div className='nav-bg'>
 
         <div className='top-stripe'>
-          <span className='span'>aiyemacbain@gmail.com | exploresocalifornia.com</span>
+          <span className='span'>aiyemacbain@gmail.com | exploresocalifornia@gmail.com</span>
         </div>
 
         <div className='container'>
-          <div className='row'>
-            <nav className='navbar navbar-expand-sm nav-bg'>
 
-              <div className=''>
-                <a href='/' className='logo'>Portfolio</a>
-              </div>
+          <nav className='navbar navbar-expand-sm nav-bg'>
 
-              <div className='collapse navbar-collapse '>
-                <ul className='navbar-nav'>
-                  <li className='nav-item color-change'>
-                    <a href='#home' className='nav-link nav-color'>Home</a>
-                  </li>
-                  <li className='nav-item color-change'>
-                    <a href='#projects' className='nav-link nav-color'>Projects</a>
-                  </li>
-                  <li className='nav-item'>
-                    <button className='btn-nav'>
-                      <a href='#contact' className='nav-link nav-color'>Contact</a>
-                    </button>
-                  </li>
-                </ul>
-              </div>
+            <div className='container'>
+              <a href='/' className='logo'>Portfolio</a>
+            </div>
 
-            </nav>
-          </div>
+            <div className='collapse navbar-collapse '>
+              <ul className='navbar-nav'>
+                <li className='nav-item color-change'>
+                  <a href='#home' className='nav-link nav-color'>Home</a>
+                </li>
+                <li className='nav-item color-change'>
+                  <a href='#projects' className='nav-link nav-color'>Projects</a>
+                </li>
+                <li className='nav-item'>
+                  <button className='btn-nav'>
+                    <a href='#contact' className='nav-link nav-color'>Contact</a>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+
         </div>
 
       </div>

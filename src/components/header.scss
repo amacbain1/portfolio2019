@@ -12,6 +12,10 @@
     background-color: $onyx;
     text-align: right;
 
+    @media screen and (max-width: 575.98px){
+      display: none;
+     }
+
     .span {
       font-size: .8rem;
       margin-right: 1.5rem;
