@@ -25,9 +25,13 @@ class Home extends Component {
             <div className='card mx-2 card-name card-main'>
               <div className='card-body px-3 py-1'>
                 <h1 className='name'>
+                  <hr />
+
                   <p className='first'>Amber</p><br />
                   <p className='middle'>Macbain</p><br />
                   <p className='last'>Stumpf</p>
+                  <hr />
+
                 </h1>
               </div>
 

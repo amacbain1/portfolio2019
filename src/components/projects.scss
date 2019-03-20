@@ -11,7 +11,7 @@
     border: none;
 
     .projects-title{
-      margin-top: 2rem;
+      margin-top: 95px;
       border: solid 4px $softgold;
       
       h3{
@@ -42,7 +42,7 @@
     background-color: $onyx;
     opacity: 0.7;
     overflow: hidden;
-    transition: .5s ease; 
+    transition: .8s ease; 
     
     .text {
       color: white;
@@ -61,6 +61,14 @@
 
   .card-columns{
     margin-top: 4rem;
+
+    hr {
+      border-color: $rosegold;
+    }
+
+    h6 {
+      font-family: $cinzel;
+    }
 
     .project-1 {
       background-image: url(./../../src/images/bw_ladybug_game.jpg);

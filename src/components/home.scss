@@ -11,10 +11,14 @@
     border: solid 6px $onyx;
     margin-top: 10rem;
     word-wrap: normal;
+
+    hr {
+      border-color: $onyx;
+    }
     
 
     .name {
-      margin-top: 1.5rem;
+      margin-top: 2.3rem;
       color: $rosegold;
 
       .first{
@@ -46,7 +50,7 @@
     background-image: url(./../../src/images/Profile-pic-B_W.JPG);
     border: solid 6px $onyx;
     background-size: cover;
-    margin-top: 5rem;
+    margin-top: 95px;
 
 
     img {
@@ -56,7 +60,7 @@
 
   .card-skills {
     background-color: $onyx;
-    margin-top: 17rem;
+    margin-top: 15rem;
     border: solid 6px lightgray;
 
     h2 {
