@@ -1,0 +1,36 @@
+@import '../App.scss';
+
+#contact {
+    background-color: $silver;
+
+    .contact-card {
+        background-color: white;
+        border: solid 4px $onyx;
+        word-wrap: normal;
+
+        h4 {
+            color: $rosegold;
+            font-size: 1.2rem;
+            font-family: $cinzel;
+        }
+
+        p, a {
+            color: $onyx;
+            font-size: .9rem;
+        }
+
+        p a:active,
+        p a:hover {   
+            font-size: 1rem;
+            color: $rosegold;
+        }
+
+        hr {
+            border-color: $rosegold;
+          }
+
+          .dark {
+            border-color: $onyx; 
+          }
+    }
+}
