@@ -6,10 +6,7 @@
   display: flex;
   background-color: $silver;
 
-  @media screen and (max-width: 575.98px){
-    
-   }
-
+ 
 
   .card-name {
     border: solid 6px $onyx;
@@ -102,7 +99,7 @@
     border: solid 6px lightgray;
 
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       font-family: $cinzel;
     }
 
@@ -123,6 +120,12 @@
     @media screen and (max-width: 575.98px){
       margin: 1.0em 0 1.0em 0;
       order: 3;
+     }
+     h2 {
+       font-size: 1.0rem;
+     }
+     p {
+       font-size: .85rem;
      }
   }
 }
