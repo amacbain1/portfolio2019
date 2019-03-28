@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-
+import Scrollspy from 'react-scrollspy';
 
 const Header = () => {
 
@@ -21,7 +21,7 @@ const Header = () => {
             </div>
 
             <div className='collapse navbar-collapse '>
-              <ul className='navbar-nav'>
+              <Scrollspy items={['home', 'projects', 'contact']} currentClassName='is-current' className='navbar-nav'>
                 <li className='nav-item color-change'>
                   <a href='#home' className='nav-link nav-color'>Home</a>
                 </li>
@@ -33,7 +33,7 @@ const Header = () => {
                     <a href='#contact' className='nav-link nav-color'>Contact</a>
                   </button>
                 </li>
-              </ul>
+              </Scrollspy>
             </div>
 
           </nav>

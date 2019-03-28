@@ -23,6 +23,11 @@ html {
     object-fit: contain;
     overflow: hidden;
     font-family: $roboto;
+
+    @media screen and (max-width: 767.98px){
+      max-width: 15em;
+      max-height: 15em;;
+     }
   }
 
 }

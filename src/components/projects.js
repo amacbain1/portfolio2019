@@ -24,7 +24,7 @@ class Projects extends Component {
 
           <div className='card-columns'>
 
-            <div className='card card-main project-1 text-center col-md-4'>
+            <div className='card card-main project-1 text-center col-md-4  mx-auto'>
               <a href='https://github.com/amacbain1/astumpf-arcade-game'>
                 <div className='overlay'>
                   <p className="text card-text"><h6>Ladybugs! Arcade Game Clone</h6> <hr /> Visit and play on GitHub</p>
@@ -33,7 +33,7 @@ class Projects extends Component {
             </div>
 
 
-            <div className='card card-main project-3 text-center col-md-4'>
+            <div className='card card-main project-3 text-center col-md-4 mx-auto'>
               <a href='https://github.com/amacbain1/Neighborhood-map-project7'>
                 <div className='overlay'>
                   <p className="text card-text"><h6>Neighborhood Map</h6><hr />Built with React<br />Visit on Github</p>
@@ -43,7 +43,7 @@ class Projects extends Component {
 
 
 
-            <div className='card card-main project-4 text-center col-md-4'>
+            <div className='card card-main project-4 text-center col-md-4 mx-auto'>
               <a href='http://www.exploresocalifornia.com/'>
                 <div className='overlay'>
                   <p className="text"><h6>Explore Southern California with me</h6><hr />Blogging about places<br />Visit me at exploresocalifornia.com<br />Built with Weebly</p>
