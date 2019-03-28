@@ -6,6 +6,10 @@
   display: flex;
   background-color: $silver;
 
+  @media screen and (max-width: 575.98px){
+    
+   }
+
 
   .card-name {
     border: solid 6px $onyx;
@@ -44,6 +48,36 @@
       }
     }
 
+    @media screen and (max-width: 575.98px){     
+      order: 1;
+      max-width: 100%;
+      height: 60px;
+      margin-top: 0;
+
+      hr, br {
+        display: none;
+      }
+      .name {
+        margin: auto;       
+        text-align: center;
+        
+        .first, .middle, .last {
+          font-size: .65em;
+          font-family: $cinzel;
+          margin: auto;
+          padding: 0;         
+          display: inline;
+          vertical-align: middle;
+        }
+      }
+     }
+    @media screen and (max-width: 425px) {
+      .name {
+      .first, .middle, .last {
+        font-size: .45em;
+      }
+    }
+    }
   }
 
   .card-img {
@@ -52,10 +86,14 @@
     background-size: cover;
     margin-top: 95px;
 
-
     img {
       width: 100%;
     }
+
+    @media screen and (max-width: 575.98px){
+      margin: 2.8em 0 1.0em 0;
+      order: 2;
+     }
   }
 
   .card-skills {
@@ -70,10 +108,21 @@
 
     p{
       font-size: 1rem;
-
-      hr {
-        border-color: $rosegold;
-      }
+      color: rgba(255,255,255,.5);
+      padding: 0;
     }
+    p:last-child {
+      padding: 1.0em;
+    }
+
+    hr {
+      border-color: $rosegold;
+      margin: 0 1.0em;
+    }
+
+    @media screen and (max-width: 575.98px){
+      margin: 1.0em 0 1.0em 0;
+      order: 3;
+     }
   }
 }
