@@ -21,6 +21,8 @@
 
       p {
         font-family: $roboto;
+        text-align: center;
+        padding-top: 1rem;
 
         a {
           color: $rosegold;
@@ -28,6 +30,19 @@
          a:active,
          a:hover {
           font-size: 1.2rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 767.98px) {
+      .projects-title {
+        margin-top: 60px;
+        margin-bottom: 0;
+        h3 {
+        font-size: 1.2rem; 
+        }
+        p {
+          font-size: .90rem;
         }
       }
     }
@@ -63,6 +78,18 @@
     hr {
       border-color: $rosegold;
     }
+
+  @media screen and (max-width: 767.98px) {
+    
+      .text {
+      font-size: .85em;
+      }
+      h6 {
+        font-size: .9em;
+      } 
+    
+  }
+
 
   }
 
