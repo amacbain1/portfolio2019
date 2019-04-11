@@ -2,7 +2,7 @@
   "name": "portfolio2019",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/amacbain1/portfolio2019.git",
+  "homepage": "https://amacbain1.github.io/portfolio2019/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
