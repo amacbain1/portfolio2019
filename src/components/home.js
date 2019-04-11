@@ -11,6 +11,17 @@ class Home extends Component {
         <div className='container'>
           <div className='card-columns'>
 
+            <div className='card card-name card-main'>
+              <div className='card-body px-3 py-1'>
+                <h1 className='name'>
+                  <hr />
+                  <p className='first'>Amber </p><br />
+                  <p className='middle'>Macbain </p><br />
+                  <p className='last'>Stumpf</p>
+                  <hr />
+                </h1>
+              </div>
+            </div>
 
             <div className='card card-img card-main mx-auto'>
 
@@ -24,20 +35,7 @@ class Home extends Component {
 
             </div>
 
-            <div className='card card-name card-main'>
-              <div className='card-body px-3 py-1'>
-                <h1 className='name'>
-                  <hr />
 
-                  <p className='first'>Amber </p><br />
-                  <p className='middle'>Macbain </p><br />
-                  <p className='last'>Stumpf</p>
-                  <hr />
-
-                </h1>
-              </div>
-
-            </div>
 
           </div>
         </div>

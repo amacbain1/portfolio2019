@@ -7,13 +7,8 @@
         background-color: white;
         border: solid 4px $onyx;
         word-wrap: normal;
-        width: 50%;
-
-        h4 {
-            color: $rosegold;
-            font-size: 1.2rem;
-            font-family: $cinzel;
-        }
+        width: 75%;
+        overflow: hidden;
 
         p, a {
             color: $onyx;
@@ -30,26 +25,24 @@
             border-color: $rosegold;
           }
 
-          .dark {
-            border-color: $onyx; 
-          }
     }
 
-    @media screen and (max-width: 767.98px) {
-        
-            
+    @media screen and (max-width: 767.98px) {           
             .contact-card {
-                min-width: 100%;
-                height: 60px;
-                
-                br, hr {
-                    display: none;
-                }
+                min-width: 75%;
+                max-height: 130px;
+                           
                 h4, p {
                     margin: 0;
                     padding: 0;
                 }
             }
         
+    }
+    @media screen and (max-width: 575.98px) {
+        
+        hr {
+            display: none;
+        }
     }
 }
