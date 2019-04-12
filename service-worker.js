@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/amacbain1/portfolio2019.git/precache-manifest.a3bcffdf418d43848371b41e8d82fa7b.js"
+  "/portfolio2019/precache-manifest.883521db06a990175ebef34d7a7e9d3c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/amacbain1/portfolio2019.git/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio2019/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
