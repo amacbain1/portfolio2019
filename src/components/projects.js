@@ -6,6 +6,10 @@ import './Projects.scss';
 
 
 
+
+
+
+
 class Projects extends Component {
 
   render() {
@@ -23,7 +27,7 @@ class Projects extends Component {
           </div>
 
           <div className='card-columns project-cards'>
-
+          
             <div className='card card-main project-1 text-center col-md-4  mx-auto'>
               <a href='https://github.com/amacbain1/astumpf-arcade-game'>
                 <div className='overlay'>

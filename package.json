@@ -2,7 +2,7 @@
   "name": "portfolio2019",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amacbain1.github.io/portfolio2019/",
+  "homepage": "https://amacbain1.github.io/portfolio2019",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
@@ -13,9 +13,9 @@
     "react-scrollspy": "^3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
