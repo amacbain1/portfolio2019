@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
-import Project from './Project.js';
 import './Projects.scss';
-
-
-
-
-
-
 
 
 
 class Projects extends Component {
 
   render() {
-    
+
     return (
       <section id='projects'>
 
@@ -27,7 +20,7 @@ class Projects extends Component {
           </div>
 
           <div className='card-columns project-cards'>
-          
+
             <div className='card card-main project-1 text-center col-md-4  mx-auto'>
               <a href='https://github.com/amacbain1/astumpf-arcade-game'>
                 <div className='overlay'>
@@ -39,6 +32,7 @@ class Projects extends Component {
                 </div>
               </a>
             </div>
+
 
             <div className='card card-main project-3 text-center col-md-4 mx-auto'>
               <a href='https://github.com/amacbain1/Neighborhood-map-project7'>
@@ -52,7 +46,7 @@ class Projects extends Component {
               </a>
             </div>
 
-            <div className='card card-main project-4 text-center col-md-4 mx-auto'>
+            <div className='card card-main project-4 text-center col-md-4 mx-auto mb-4'>
               <a href='http://www.exploresocalifornia.com/'>
                 <div className='overlay'>
                   <div className='text card-text'>
@@ -63,7 +57,7 @@ class Projects extends Component {
                 </div>
               </a>
             </div>
-            
+
           </div>
 
         </div>
